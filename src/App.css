@@ -1,24 +1,57 @@
 .App {
   text-align: center;
 }
+.Header{
+  background: #8c968c;
+  height: auto;
+  padding: 15px;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+}
+.Body{
+  width: 100%;
+}
+.Footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #122122;
+
+    padding: 15px;
+
+}
+.Body p {
+  background: #8c968c;
+  position: fixed;
+  width: 90%;
+  margin: 20px;
+  
+  
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Footer input{
+    width: 80%;
+    background: transparent;
+    height: auto;
+    border: none;
+    border-bottom: 2px solid rgb(89, 145, 182);
+    box-shadow: 1px 1px 1px #114;
+    color: rgb(195, 245, 245);
 }
+.Footer .customAdd {
+  position: fixed;
+  border-radius: 50%;
+  background:#122122;
+  border: none;
+  width:8%;
+  font-size: 20px;
+  box-shadow: 1px 2px 3px #93dbe0;
+  color: aliceblue;
 
-.App-intro {
-  font-size: large;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Footer button{
+  border: none;
+  position: fixed;
+  border-radius: 50%;
 }
