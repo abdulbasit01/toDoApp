@@ -43,7 +43,7 @@ class ToDoApp extends Component {
             <div className="mainDiv-App">
                 <div className="Header">To Do list App</div>
                 <div className="Body">
-                <p>{this.state.toDoItem.map(list=><span key={list+Math.random()}>{list}<button className="customRemove Badges" onClick={this.deletItem.bind(this)}>-</button><br/></span>)}</p>
+                <p className="paragraph">{this.state.toDoItem.map(list=><span key={list+Math.random()}>{list}<button className="customRemove Badges" onClick={this.deletItem.bind(this)}>-</button><br/></span>)}</p>
                 </div>
                 <div className="Footer">
                     <input type="text" value={this.state.value} onChange={this.onChangeHandeler.bind(this)} className=" form-control-sm  "/><button className="customAdd" onClick={this.addItem.bind(this)}>+</button>
